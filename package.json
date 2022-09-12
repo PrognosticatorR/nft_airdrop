@@ -1,0 +1,26 @@
+{
+  "name": "nft-airdrop",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Devesh Rawat",
+  "keywords": [
+    "blockchain"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deveshrawat/nft_airdrop.git"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
